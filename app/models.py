@@ -11,5 +11,12 @@ class CustomUser(AbstractUser):
     def __str__(self):
         return self.email
     
-    REQUIRED_FIELDS = ['email']
     
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = ['username']
+    
+    
+    class Meta:
+        verbose_name = 'Custom User'
+        verbose_name_plural = 'Custom Users'
+        
