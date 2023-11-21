@@ -61,4 +61,8 @@ class LoginApi(APIView):
             )
         
     
-    
+# this is rough.
+
+'''
+Hai, hello nice to meet you. im a passionate software developer who focus on django which is beackend framework for python language..
+'''
